@@ -44,3 +44,7 @@ function buscaStatusContrato() {
         campoStatus.innerHTML = err;
     });
 }
+
+function encerraContrato () {
+    contrato.fimDoContrato();
+}                                                
